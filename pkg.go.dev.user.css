@@ -1,0 +1,35 @@
+@-moz-document domain("pkg.go.dev") {
+:root {
+    --gray-1: #fafafa;
+    --gray-2: #f0f1f2;
+    --gray-3: #dcdee0;
+    --gray-4: #c6c8ca;
+    --gray-5: #aaacae;
+    --gray-6: #848688;
+    --gray-7: #6e7072;
+    --gray-8: #555759;
+    --gray-9: #3e4042;
+    --gray-10: #202224;
+}
+
+body {
+    background: black;
+}
+
+.Documentation pre .comment {
+    color: #4c4;
+}
+
+.Documentation a {
+    color: var(--turq-light);
+}
+
+.Documentation code, .Documentation pre {
+    background: var(--gray-10);
+    border: none;
+}
+
+.DetailsHeader-badge {
+    color: var(--gray-10);
+}
+}
