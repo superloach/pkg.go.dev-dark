@@ -1,3 +1,5 @@
+archiving because there's no development this is just kinda here
+
 # pkg.go.dev-dark
 Dark theme on pkg.go.dev with UserCSS.
 
