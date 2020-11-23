@@ -1,43 +1,47 @@
 /* ==UserStyle==
 @name           pkg.go.dev-dark
 @namespace      github.com/superloach/pkg.go.dev-dark
-@version        1.0.0
+@version        1.1.0
 @description    Dark theme on pkg.go.dev with UserCSS.
 @author         Terra Brown
 ==/UserStyle== */
 @-moz-document domain("pkg.go.dev") {
-    :root {
-        --gray-1: #fafafa;
-        --gray-2: #f0f1f2;
-        --gray-3: #dcdee0;
-        --gray-4: #c6c8ca;
-        --gray-5: #aaacae;
-        --gray-6: #848688;
-        --gray-7: #6e7072;
-        --gray-8: #555759;
-        --gray-9: #3e4042;
-        --gray-10: #202224;
-    }
+	:root {
+		--gray-1: #fafafa;
+		--gray-2: #f0f1f2;
+		--gray-3: #dcdee0;
+		--gray-4: #c6c8ca;
+		--gray-5: #aaacae;
+		--gray-6: #848688;
+		--gray-7: #6e7072;
+		--gray-8: #555759;
+		--gray-9: #3e4042;
+		--gray-10: #202224;
+	}
 
-    body {
-        background: black;
-    }
+	body {
+		background: black;
+	}
 
-    .Documentation pre .comment {
-        color: #4c4;
-    }
+	#outline-panel {
+		background: var(--gray-10);
+	}
 
-    .Documentation a {
-        color: var(--turq-light);
-    }
+	.Documentation pre .comment {
+		color: #4c4;
+	}
 
-    .Documentation code,
-    .Documentation pre {
-        background: var(--gray-10);
-        border: none;
-    }
+	.Documentation a {
+		color: var(--turq-light);
+	}
 
-    .DetailsHeader-badge {
-        color: var(--gray-10);
-    }
+	.Documentation code,
+	.Documentation pre {
+		background: var(--gray-10);
+		border: none;
+	}
+
+	.DetailsHeader-badge {
+		color: var(--gray-10);
+	}
 }
